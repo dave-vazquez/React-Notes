@@ -1,0 +1,72 @@
+.note-form-container {
+    width: 300px;
+    height: 400px;
+
+    padding: 20px;
+
+    background: linear-gradient(143.13deg, #5E838E 0%, #47626A 100%);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-input {
+    height: 35px;
+
+    margin-bottom: 10px;
+    padding: 5px 10px;
+
+    border: none;
+    outline: none;
+
+    background: linear-gradient(97.67deg, #CECEC0 0%, #F1F1E5 100%);
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.66);
+
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+.text-input {
+    height: 275px;
+    
+    margin-bottom: 10px;
+    padding: 5px 10px;
+
+    border: none;
+    outline: none;
+
+    background: linear-gradient(131deg, #CECEC0 2.43%, #CECEC0 2.44%, #F1F1E5 100%);
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.66);
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+
+    resize: none;
+}
+
+.add-button {
+    align-self: flex-end;
+
+    max-width: 30px;
+    height: 30px;
+
+    border: none;
+    outline: none;
+
+    color: #FFFBFB;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+
+    line-height: 10px;
+
+    background: #96B697;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
+}

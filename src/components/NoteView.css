@@ -1,0 +1,76 @@
+.note-view-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+
+    width: 300px;
+    height: 400px;
+
+    padding: 20px;
+
+    background: linear-gradient(143.13deg, #5E838E 0%, #47626A 100%);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.note-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-view button {
+    width: 100%;
+}
+
+.note-header {
+    width: 100%;
+    margin-bottom: 20px;
+
+    color: #AFD6B1;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+
+    text-decoration-line: underline;
+
+}
+
+.note-text-container {
+    width: 260px;
+    height: 275px;
+
+    margin-bottom: 10px;
+
+    overflow-y: auto;
+}
+
+.note-text {
+    color: #C2D4F0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+
+    white-space: pre-wrap;
+}
+
+.delete-button {
+    align-self: flex-end;
+
+    max-width: 30px;
+    height: 30px;
+
+    border: none;
+    outline: none;
+
+    color: #FFFBFB;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+
+    line-height: 10px;
+
+    background: #96B697;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
+}
